@@ -16,11 +16,11 @@ list = ['python', 18]
 _func(*list)
 
 
-def _func(**kwargs):
+def _function(**kwargs):
     for c, d in kwargs.items():
         print("%s:%s" % (c, d))
 
 
 my_dic = {'name':'python', 'age':18}
-_func(a=1)
-_func(**my_dic)
+_function(a=1)
+_function(**my_dic)
